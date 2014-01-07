@@ -4,9 +4,16 @@ Common.css is a set of style rules (built on top of normalize.css) to unify the 
 
 ## Usage
 
+To use in your page:
+
 ```html
 <link rel="stylesheet" href="css/normalize.css">
 <link rel="stylesheet" href="css/common.css">
+```
+
+To build:
+```bash
+rake sass
 ```
 
 ## License
