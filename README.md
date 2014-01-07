@@ -2,6 +2,12 @@
 
 Common.css is a set of style rules (built on top of normalize.css) to unify the common functionality that I find myself implementing from project to project.
 
+Comments, feedback and pull requests are more than welcomed.
+
+## Demo
+
+You can see the sheets in action [here](http://jsrn.net/common.css/).
+
 ## Usage
 
 To use in your page:
