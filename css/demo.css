@@ -16,8 +16,11 @@ form {
 	margin-left: 10px;
 }
 
-#forms {
+#wrap {
 	width: 810px;
 	margin: 0 auto;
+}
+
+#forms {
 	overflow: hidden;
 }

@@ -10,92 +10,106 @@
 <body>
 	<a href="https://github.com/jsrn/common.css"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
 
-	<h1>common.css</h1>
+	<div id="wrap">
+		<h1>common.css</h1>
 
-	<p>
-		Common.css is a set of style rules built on top of normalize.css to unify the common functionality that I find myself implementing from project to project.
-	</p>
+		<p>
+			Common.css is a set of style rules built on top of normalize.css to unify the common functionality that I find myself implementing from project to project.
+		</p>
 
-	<h1 id="menus-anchor">Menus</h1>
+		<h1 id="menus-anchor">Menus</h1>
 
-	<ul id="common-menu">
-		<li>
-			<a href="#menus-anchor">Menus</a>
-		</li>
+		<ul id="common-menu">
+			<li>
+				<a href="#menus-anchor">Menus</a>
+			</li>
 
-		<li>
-			<a href="#forms-anchor">Forms</a>
-		</li>
+			<li>
+				<a href="#forms-anchor">Forms</a>
+			</li>
 
-		<li>
-			<a href="#">Dummy 1</a>
-		</li>
+			<li>
+				<a href="#text-anchor">Text</a>
+			</li>
 
-		<li>
-			<a href="#">Dummy 2</a>
-		</li>
-	</ul>
+			<li>
+				<a href="#">Dummy 2</a>
+			</li>
+		</ul>
 
-	<h1 id="forms-anchor">Forms</h1>
+		<h1 id="forms-anchor">Forms</h1>
 
-	<p>
-		The two form styles I use the most are the stacked style and the aligned style. I've done CSS for both.
-	</p>
+		<p>
+			The two form styles I use the most are the stacked style and the aligned style. I've done CSS for both.
+		</p>
 
-	<section id="forms">
-		<form class="stacked-form">
-			<h2>Stacked Form</h2>
+		<section id="forms">
+			<form class="stacked-form">
+				<h2>Stacked Form</h2>
 
-			<label for="stacked_text_input">Text input</label>
-			<input type="text" id="stacked_text_input" placeholder="Text input">
+				<label for="stacked_text_input">Text input</label>
+				<input type="text" id="stacked_text_input" placeholder="Text input">
 
-			<label for="stacked_short_select">Short select</label>
-			<select id="stacked_short_select">
-				<option value="1">Lorem ipsum</option>
-				<option value="2">Dolor sit amet</option>
-			</select>
-
-			<label for="stacked_tall_select">Tall select</label>
-			<select size="2" id="stacked_tall_select">
-				<option value="1">Consectetur adipisicing</option>
-				<option value="2">Dolore magna</option>
-			</select>
-
-			<label for="stacked_textarea">Text area</label>
-			<textarea id="stacked_textarea" cols="30" rows="10"
-				placeholder="Text area"></textarea>
-		</form>
-
-		<form class="aligned-form">
-			<h2>Aligned Form</h2>
-
-			<div>
-				<label for="aligned_text_input">Text input</label>
-				<input type="text" id="aligned_text_input" placeholder="Text input">	
-			</div>
-			
-			<div>
-				<label for="aligned_short_select">Short select</label>
-				<select id="aligned_short_select">
+				<label for="stacked_short_select">Short select</label>
+				<select id="stacked_short_select">
 					<option value="1">Lorem ipsum</option>
 					<option value="2">Dolor sit amet</option>
 				</select>
-			</div>
-			
-			<div>
-				<label for="aligned_tall_select">Tall select</label>
-				<select size="2" id="aligned_tall_select">
+
+				<label for="stacked_tall_select">Tall select</label>
+				<select size="2" id="stacked_tall_select">
 					<option value="1">Consectetur adipisicing</option>
 					<option value="2">Dolore magna</option>
 				</select>
-			</div>
-			
-			<div>
-				<label for="aligned_textarea">Text area</label>
-				<textarea id="aligned_textarea" cols="30" rows="10"
-					placeholder="Text area"></textarea>	
-			</div>
-		</form>
-	</section>
+
+				<label for="stacked_textarea">Text area</label>
+				<textarea id="stacked_textarea" cols="30" rows="10"
+					placeholder="Text area"></textarea>
+			</form>
+
+			<form class="aligned-form">
+				<h2>Aligned Form</h2>
+
+				<div>
+					<label for="aligned_text_input">Text input</label>
+					<input type="text" id="aligned_text_input" placeholder="Text input">	
+				</div>
+				
+				<div>
+					<label for="aligned_short_select">Short select</label>
+					<select id="aligned_short_select">
+						<option value="1">Lorem ipsum</option>
+						<option value="2">Dolor sit amet</option>
+					</select>
+				</div>
+				
+				<div>
+					<label for="aligned_tall_select">Tall select</label>
+					<select size="2" id="aligned_tall_select">
+						<option value="1">Consectetur adipisicing</option>
+						<option value="2">Dolore magna</option>
+					</select>
+				</div>
+				
+				<div>
+					<label for="aligned_textarea">Text area</label>
+					<textarea id="aligned_textarea" cols="30" rows="10"
+						placeholder="Text area"></textarea>	
+				</div>
+			</form>
+		</section>
+
+		<h1 id="text-anchor">Text</h1>
+
+		I also style some text.
+
+		<blockquote>
+			This is a block quote, for example.
+		</blockquote>	
+
+		<p>
+			And this is a paragraph.
+		</p>
+	</div>
 </body>
 </html>
