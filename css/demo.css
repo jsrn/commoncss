@@ -1,10 +1,10 @@
 body {
 	padding: 5px;
-	text-align: center;
 }
 
 h1 {
 	clear: both;
+	text-align: center;
 }
 
 form {
