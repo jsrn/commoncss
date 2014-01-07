@@ -12,6 +12,14 @@
 		float: left;
 		border-right: solid white 2px;
 
+		&:hover {
+			background-color: #94B9D4;
+		}
+
+		&:first-child {
+			border-radius: 2px 0 0 2px;
+		}
+
 		a {
 			text-decoration: none;
 			color: inherit;
@@ -23,13 +31,46 @@
 			&:visited {
 				color: inherit;
 			}
+		}
+	}
+}
 
-			&:hover {
-				background-color: #94B9D4;
-			}
+.common-sidebar {
+	list-style: none;
+	width: 200px;
+	background-color: #678AB5;
+	font-size: 1.1em;
+	font-weight: bold;
+	padding-left: 0;
+	border-radius: 2px;
 
-			&:first-child {
-				border-radius: 2px 0 0 2px;
+	li {
+		height: 35px;
+		border-bottom: solid white 2px;
+
+		&:hover {
+			background-color: #94B9D4;
+		}
+
+		&:first-child {
+			border-radius: 2px 2px 0 0;
+		}
+
+		&:last-child {
+			border-bottom-width: 0;
+			border-radius: 0 0 2px 2px;
+		}
+
+		a {
+			text-decoration: none;
+			color: inherit;
+			padding-left: 20px;
+			padding-right: 20px;
+			line-height: 35px;
+			display: inline-block;
+
+			&:visited {
+				color: inherit;
 			}
 		}
 	}
