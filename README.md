@@ -6,7 +6,7 @@ Comments, feedback and pull requests are more than welcomed.
 
 ## Demo
 
-You can see the sheets in action [here](http://jsrn.net/common.css/).
+You can see the sheets in action [here](http://jsrn.net/commoncss/).
 
 ## Usage
 
