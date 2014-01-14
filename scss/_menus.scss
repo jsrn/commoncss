@@ -1,6 +1,5 @@
 .common-menu-base {
 	list-style: none;
-	background-color: $main;
 	border-radius: 2px;
 	padding-left: 0;
 
@@ -8,6 +7,7 @@
 		height: 35px;
 
 		a {
+			background-color: $main;
 			font-size: 1.1em;
 			font-weight: bold;
 			transition: 0.5s;
@@ -36,10 +36,18 @@
 
 	li {
 		float: left;
-		border-right: solid white 2px;
+		margin-right: 2px;
 
-		&:first-child {
+		&:first-child a {
 			border-radius: 2px 0 0 2px;
+		}
+
+		&:last-child {
+			margin-right: 0;
+
+			a {
+				border-radius: 0 2px 2px 0;
+			}
 		}
 	}
 }
@@ -49,16 +57,18 @@
 	width: 200px;
 
 	li {
-		border-bottom: solid white 2px;
 		height: 37px;
 
-		&:first-child {
+		&:first-child a {
 			border-radius: 2px 2px 0 0;
 		}
 
 		&:last-child {
 			border-bottom-width: 0;
-			border-radius: 0 0 2px 2px;
+			
+			a {
+				border-radius: 0 0 2px 2px;
+			}
 		}
 
 		a {
