@@ -1,3 +1,3 @@
 task :sass do
-  sh "sass -t compressed scss/common.scss css/common.css"
+  sh "sass --watch -t compressed scss/common.scss:css/common.css"
 end

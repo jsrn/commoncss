@@ -24,3 +24,16 @@ form {
 #forms {
 	overflow: hidden;
 }
+
+.colours-demo {
+	width: 560px;
+	height: 110px;
+	margin: 0 auto;
+}
+
+.colours-demo > div {
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	margin: 5px;
+}
